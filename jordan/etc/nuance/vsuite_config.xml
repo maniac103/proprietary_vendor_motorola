@@ -1,0 +1,24 @@
+<config>
+    <vsuite_feature_dialing_region value="Other"/>
+    <vsuite_feature_language_data_dir value="/system/tts/nuance"/>
+    <vsuite_feature_proximity_sensor_enabled value="true"/>
+    <vsuite_feature_check_balance value="disabled"/>
+    <vsuite_feature_check_minutes value="disabled"/>
+    <vsuite_feature_check_payment value="disabled"/>
+    <vsuite_feature_check_missed_calls_custom_enabled value="true"/>
+    <vsuite_feature_phonebook_resync_delay value="5000"/>
+    <vsuite_feature_locale_override old="en_CA" new="en_US" />
+    <vsuite_feature_locale_override old="en_AU" new="en_US" />
+    <vsuite_feature_locale_override old="en_NZ" new="en_US" />
+    <vsuite_feature_locale_override old="en_SG" new="en_US" />
+    <vsuite_feature_locale_override old="fr_BE" new="fr_FR" />
+    <vsuite_feature_locale_override old="fr_CH" new="fr_FR" />
+    <vsuite_feature_locale_override old="de_AT" new="de_DE" />
+    <vsuite_feature_locale_override old="de_CH" new="de_DE" />
+    <vsuite_feature_locale_override old="de_LI" new="de_DE" />
+    <vsuite_feature_locale_override old="it_CH" new="it_IT" />
+</config>
+
+
+
+
