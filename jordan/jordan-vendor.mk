@@ -237,11 +237,11 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/mtpd:system/bin/mtpd \
 	vendor/motorola/jordan/lib/libjanus.so:system/lib/libjanus.so \
 	vendor/motorola/jordan/lib/libmetainfo.so:system/lib/libmetainfo.so \
-	vendor/motorola/jordan/lib/motdrm1.so:system/lib/lib/motdrm1.so \
-	vendor/motorola/jordan/lib/lib/mtp_jni.so:system/lib/libmtp_jni.so \
-	vendor/motorola/jordan/lib/lib/mtpstack.so:system/lib/libmtpstack.so \
-	vendor/motorola/jordan/lib/lib/nativedrm1.so:system/lib/libnativedrm1.so \
-	vendor/motorola/jordan/lib/lib/wmdrmdependency.so:system/lib/libwmdrmdependency.so
+	vendor/motorola/jordan/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
+	vendor/motorola/jordan/lib/libmtp_jni.so:system/lib/libmtp_jni.so \
+	vendor/motorola/jordan/lib/libmtpstack.so:system/lib/libmtpstack.so \
+	vendor/motorola/jordan/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
+	vendor/motorola/jordan/lib/libwmdrmdependency.so:system/lib/libwmdrmdependency.so
 
 #AT command interface
 PRODUCT_COPY_FILES += \
