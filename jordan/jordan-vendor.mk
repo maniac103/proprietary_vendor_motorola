@@ -14,7 +14,6 @@
 
 
 # LIBS
-#vendor/motorola/jordan/lib/libreference-ril.so:system/lib/libreference-ril.so
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libcamera.so:system/lib/libmotocamera.so \
 	vendor/motorola/jordan/lib/libaudio.so:obj/lib/libaudio.so \
@@ -150,8 +149,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/etc/motorola/tcmd/pkiprovision.cfg:system/etc/motorola/tcmd/pkiprovision.cfg
 
 #bin
-#vendor/motorola/jordan/bin/fmradio:system/bin/fmradio 
-#vendor/motorola/jordan/bin/iptables:system/bin/iptables
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/pvrsrvinit:system/bin/pvrsrvinit \
 	vendor/motorola/jordan/bin/dumpe2fs:system/bin/dumpe2fs \
