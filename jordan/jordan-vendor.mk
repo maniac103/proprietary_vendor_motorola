@@ -14,6 +14,7 @@
 
 
 # LIBS
+#vendor/motorola/jordan/lib/libreference-ril.so:system/lib/libreference-ril.so
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libcamera.so:system/lib/libmotocamera.so \
 	vendor/motorola/jordan/lib/libaudio.so:obj/lib/libaudio.so \
