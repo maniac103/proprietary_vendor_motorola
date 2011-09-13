@@ -206,7 +206,6 @@ PRODUCT_COPY_FILES += \
 #MTP
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/app/MediaSync.apk:system/app/MediaSync.apk \
-	vendor/motorola/jordan/bin/mtpd:system/bin/mtpd \
 	vendor/motorola/jordan/lib/libjanus.so:system/lib/libjanus.so \
 	vendor/motorola/jordan/lib/libmetainfo.so:system/lib/libmetainfo.so \
 	vendor/motorola/jordan/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
