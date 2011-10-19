@@ -220,5 +220,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/app/AtCmd.apk:system/app/AtCmd.apk \
 	vendor/motorola/jordan/lib/libmot_atcmd.so:system/lib/libmot_atcmd.so \
-	vendor/motorola/jordan/lib/libmot_atcmd_mflex.so:system/libmot_atcmd_mflex.so
+	vendor/motorola/jordan/lib/libmot_atcmd_mflex.so:system/lib/libmot_atcmd_mflex.so
 
