@@ -201,13 +201,8 @@ PRODUCT_COPY_FILES += \
 #MTP
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/app/MediaSync.apk:system/app/MediaSync.apk \
-	vendor/motorola/jordan/lib/libjanus.so:system/lib/libjanus.so \
-	vendor/motorola/jordan/lib/libmetainfo.so:system/lib/libmetainfo.so \
-	vendor/motorola/jordan/lib/libmotdrm1.so:system/lib/libmotdrm1.so \
 	vendor/motorola/jordan/lib/libmtp_jni.so:system/lib/libmtp_jni.so \
-	vendor/motorola/jordan/lib/libmtpstack.so:system/lib/libmtpstack.so \
-	vendor/motorola/jordan/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
-	vendor/motorola/jordan/lib/libwmdrmdependency.so:system/lib/libwmdrmdependency.so
+	vendor/motorola/jordan/lib/libmtpstack.so:system/lib/libmtpstack.so
 
 #AT command interface
 PRODUCT_COPY_FILES += \
