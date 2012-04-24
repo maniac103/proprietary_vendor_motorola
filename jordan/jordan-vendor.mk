@@ -751,25 +751,25 @@ PRODUCT_COPY_FILES += \
 
 # baseband default is central europe 3.4.x
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio:system/etc/motorola/bp_nvm_default/File_Audio \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio1_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio2:system/etc/motorola/bp_nvm_default/File_Audio2 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio2_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio3:system/etc/motorola/bp_nvm_default/File_Audio3 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio3_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio3_AMR_WB \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio4:system/etc/motorola/bp_nvm_default/File_Audio4 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio4_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio4_AMR_WB \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio5:system/etc/motorola/bp_nvm_default/File_Audio5 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio5_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio5_AMR_WB \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio6:system/etc/motorola/bp_nvm_default/File_Audio6 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio7:system/etc/motorola/bp_nvm_default/File_Audio7 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Audio8:system/etc/motorola/bp_nvm_default/File_Audio8 \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_GPRS:system/etc/motorola/bp_nvm_default/File_GPRS \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_GSM:system/etc/motorola/bp_nvm_default/File_GSM \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Logger:system/etc/motorola/bp_nvm_default/File_Logger \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_Seem_Flex_Tables:system/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/generic_pds_init:system/etc/motorola/bp_nvm_default/generic_pds_init \
-	vendor/motorola/jordan/etc/motorola/basebands/central_europe_34x/File_UMA:system/etc/motorola/bp_nvm_default/File_UMA
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio:system/etc/motorola/bp_nvm_default/File_Audio \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio1_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio2:system/etc/motorola/bp_nvm_default/File_Audio2 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio2_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio3:system/etc/motorola/bp_nvm_default/File_Audio3 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio3_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio3_AMR_WB \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio4:system/etc/motorola/bp_nvm_default/File_Audio4 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio4_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio4_AMR_WB \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio5:system/etc/motorola/bp_nvm_default/File_Audio5 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio5_AMR_WB:system/etc/motorola/bp_nvm_default/File_Audio5_AMR_WB \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio6:system/etc/motorola/bp_nvm_default/File_Audio6 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio7:system/etc/motorola/bp_nvm_default/File_Audio7 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Audio8:system/etc/motorola/bp_nvm_default/File_Audio8 \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_GPRS:system/etc/motorola/bp_nvm_default/File_GPRS \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_GSM:system/etc/motorola/bp_nvm_default/File_GSM \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Logger:system/etc/motorola/bp_nvm_default/File_Logger \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_Seem_Flex_Tables:system/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/generic_pds_init:system/etc/motorola/bp_nvm_default/generic_pds_init \
+	vendor/motorola/jordan/etc/motorola/basebands/europe/central_europe_34x/File_UMA:system/etc/motorola/bp_nvm_default/File_UMA
 
 #bin
 PRODUCT_COPY_FILES += \
