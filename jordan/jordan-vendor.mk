@@ -114,7 +114,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/etc/motorola/basebands/asia/china_026_110.zip:system/etc/motorola/basebands/asia/china_026_110.zip \
 	vendor/motorola/jordan/etc/motorola/basebands/asia/china_me722_110.zip:system/etc/motorola/basebands/asia/china_me722_110.zip \
 	vendor/motorola/jordan/etc/motorola/basebands/asia/hktaiwan_259.zip:system/etc/motorola/basebands/asia/hktaiwan_259.zip \
-	vendor/motorola/jordan/etc/motorola/basebands/asia/sea_343.zip:system/etc/motorola/basebands/asia/sea_343.zip \
+	vendor/motorola/jordan/etc/motorola/basebands/asia/sea_343_331.zip:system/etc/motorola/basebands/asia/sea_343_331.zip \
+	vendor/motorola/jordan/etc/motorola/basebands/asia/sea_343_361.zip:system/etc/motorola/basebands/asia/sea_343_361.zip \
 	vendor/motorola/jordan/etc/motorola/basebands/asia/southkorea_342.zip:system/etc/motorola/basebands/asia/southkorea_342.zip \
 	vendor/motorola/jordan/etc/motorola/basebands/australia/optus_342.zip:system/etc/motorola/basebands/australia/optus_342.zip \
 	vendor/motorola/jordan/etc/motorola/basebands/australia/telstra_226.zip:system/etc/motorola/basebands/australia/telstra_226.zip \
