@@ -18,8 +18,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libaudio.so:obj/lib/libaudio.so \
 	vendor/motorola/jordan/lib/libaudio.so:system/lib/libaudio.so \
 	vendor/motorola/jordan/lib/libbayercamera.so:system/lib/libbayercamera.so \
-	vendor/motorola/jordan/lib/libcamera.so:obj/lib/libcamera.so \
-	vendor/motorola/jordan/lib/libcamera.so:system/lib/libcamera.so  \
+	vendor/motorola/jordan/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/motorola/jordan/lib/libcaps.so:system/lib/libcaps.so \
 	vendor/motorola/jordan/lib/libIMGegl.so:system/lib/libIMGegl.so \
 	vendor/motorola/jordan/lib/libpvr2d.so:system/lib/libpvr2d.so \
@@ -80,7 +79,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	vendor/motorola/jordan/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/jordan/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-	vendor/motorola/jordan/lib/liboemcamera.so:system/lib/liboemcamera.so 
 
 #Moto etc
 PRODUCT_COPY_FILES += \
