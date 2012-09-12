@@ -32,10 +32,15 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/jordan/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	vendor/motorola/jordan/lib/libmotdb.so:system/lib/libmotdb.so \
+	vendor/motorola/jordan/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
 	vendor/motorola/jordan/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
+	vendor/motorola/jordan/lib/libsmapi.so:system/lib/libsmapi.so \
 	vendor/motorola/jordan/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/jordan/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan/lib/librilswitch.so:system/lib/librilswitch.so \
+	vendor/motorola/jordan/lib/libtpa.so:system/lib/libtpa.so \
+	vendor/motorola/jordan/lib/libtpa_core.so:system/lib/libtpa_core.so \
+	vendor/motorola/jordan/lib/libcryptoki.so:system/lib/libcryptoki.so \
 	vendor/motorola/jordan/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	vendor/motorola/jordan/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
