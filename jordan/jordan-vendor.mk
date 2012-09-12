@@ -182,7 +182,8 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/bin/location:system/bin/location \
 	vendor/motorola/jordan/bin/ssmgrd:system/bin/ssmgrd \
 	vendor/motorola/jordan/bin/panic_daemon:system/bin/panic_daemon \
-	vendor/motorola/jordan/bin/secclkd:system/bin/secclkd
+	vendor/motorola/jordan/bin/secclkd:system/bin/secclkd \
+	vendor/motorola/jordan/bin/gki_pd_notifier:system/bin/gki_pd_notifier
 
 #location proxy
 PRODUCT_COPY_FILES += \
