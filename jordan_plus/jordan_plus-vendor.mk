@@ -31,10 +31,16 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/jordan_plus/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	vendor/motorola/jordan_plus/lib/libmotdb.so:system/lib/libmotdb.so \
+	vendor/motorola/jordan_plus/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
 	vendor/motorola/jordan_plus/lib/libmsl_interface.so:system/lib/libmsl_interface.so \
+	vendor/motorola/jordan_plus/lib/libsmapi.so:system/lib/libsmapi.so \
 	vendor/motorola/jordan_plus/lib/libssmgr.so:system/lib/libssmgr.so \
 	vendor/motorola/jordan_plus/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	vendor/motorola/jordan_plus/lib/librilswitch.so:system/lib/librilswitch.so \
+	vendor/motorola/jordan_plus/lib/libtpa.so:system/lib/libtpa.so \
+	vendor/motorola/jordan_plus/lib/libtpa_core.so:system/lib/libtpa_core.so \
+	vendor/motorola/jordan_plus/lib/libcryptoki.so:system/lib/libcryptoki.so \
+	vendor/motorola/jordan_plus/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	vendor/motorola/jordan_plus/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan_plus/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	vendor/motorola/jordan_plus/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
@@ -129,9 +135,13 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/bin/fmradioserver:system/bin/fmradioserver \
 	vendor/motorola/jordan_plus/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	vendor/motorola/jordan_plus/bin/akmd2:system/bin/akmd2 \
+	vendor/motorola/jordan_plus/bin/aplogd:system/bin/aplogd \
 	vendor/motorola/jordan_plus/bin/usbd:system/bin/usbd \
 	vendor/motorola/jordan_plus/bin/location:system/bin/location \
-	vendor/motorola/jordan_plus/bin/ssmgrd:system/bin/ssmgrd
+	vendor/motorola/jordan_plus/bin/ssmgrd:system/bin/ssmgrd \
+	vendor/motorola/jordan_plus/bin/panic_daemon:system/bin/panic_daemon \
+	vendor/motorola/jordan_plus/bin/secclkd:system/bin/secclkd \
+	vendor/motorola/jordan_plus/bin/gki_pd_notifier:system/bin/gki_pd_notifier
 
 #location proxy
 PRODUCT_COPY_FILES += \
@@ -139,8 +149,6 @@ PRODUCT_COPY_FILES += \
 
 #app
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan_plus/app/FMRadio.apk:system/app/FMRadio.apk \
-	vendor/motorola/jordan_plus/app/FMRadioService.apk:system/app/FMRadioService.apk \
 	vendor/motorola/jordan_plus/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	vendor/motorola/jordan_plus/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
 	vendor/motorola/jordan_plus/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk 
@@ -148,3 +156,5 @@ PRODUCT_COPY_FILES += \
 #extra
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/media/Moto.ogg:system/media/audio/ringtones/Moto.ogg
+
+include vendor/motorola/jordan-common/jordan-common-vendor.mk
