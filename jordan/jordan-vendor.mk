@@ -171,11 +171,4 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan/lib/libmtp_jni.so:system/lib/libmtp_jni.so \
 	vendor/motorola/jordan/lib/libmtpstack.so:system/lib/libmtpstack.so
 
-#AT command interface
-PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/app/AtCmd.apk:system/app/AtCmd.apk \
-	vendor/motorola/jordan/app/PhoneAddons.apk:system/app/PhoneAddons.apk \
-	vendor/motorola/jordan/lib/libmot_atcmd.so:system/lib/libmot_atcmd.so \
-	vendor/motorola/jordan/lib/libmot_atcmd_mflex.so:system/lib/libmot_atcmd_mflex.so
-
 include vendor/motorola/jordan-common/jordan-common-vendor.mk
