@@ -19,16 +19,9 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libaudio.so:system/lib/libaudio.so \
 	vendor/motorola/jordan_plus/lib/libbayercamera.so:system/lib/libbayercamera.so \
 	vendor/motorola/jordan_plus/lib/libcaps.so:system/lib/libcaps.so \
-	vendor/motorola/jordan_plus/lib/libIMGegl.so:system/lib/libIMGegl.so \
-	vendor/motorola/jordan_plus/lib/libpvr2d.so:system/lib/libpvr2d.so \
-	vendor/motorola/jordan_plus/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-	vendor/motorola/jordan_plus/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-	vendor/motorola/jordan_plus/lib/libsrv_init.so:system/lib/libsrv_init.so \
-	vendor/motorola/jordan_plus/lib/libsrv_um.so:system/lib/libsrv_um.so \
 	vendor/motorola/jordan_plus/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	vendor/motorola/jordan_plus/lib/libbattd.so:system/lib/libbattd.so \
 	vendor/motorola/jordan_plus/lib/libgki.so:system/lib/libgki.so \
-	vendor/motorola/jordan_plus/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
 	vendor/motorola/jordan_plus/lib/libHPImgApi.so:system/lib/libHPImgApi.so \
 	vendor/motorola/jordan_plus/lib/libmotdb.so:system/lib/libmotdb.so \
 	vendor/motorola/jordan_plus/lib/libmotodbgutils.so:system/lib/libmotodbgutils.so \
@@ -41,7 +34,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	vendor/motorola/jordan_plus/lib/libcryptoki.so:system/lib/libcryptoki.so \
 	vendor/motorola/jordan_plus/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
-	vendor/motorola/jordan_plus/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
 	vendor/motorola/jordan_plus/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	vendor/motorola/jordan_plus/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
 	vendor/motorola/jordan_plus/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
@@ -72,9 +64,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	vendor/motorola/jordan_plus/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	vendor/motorola/jordan_plus/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
-	vendor/motorola/jordan_plus/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-	vendor/motorola/jordan_plus/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-	vendor/motorola/jordan_plus/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
 	vendor/motorola/jordan_plus/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
 	vendor/motorola/jordan_plus/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
 	vendor/motorola/jordan_plus/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so \
@@ -83,7 +72,6 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	vendor/motorola/jordan_plus/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	vendor/motorola/jordan_plus/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-	vendor/motorola/jordan_plus/lib/libusc.so:system/lib/libusc.so \
 	vendor/motorola/jordan_plus/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/motorola/jordan_plus/lib/libPERF.so:system/lib/libPERF.so
 
@@ -124,9 +112,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/etc/motorola/comm_drv/PLMN_VERSION.txt:system/etc/motorola/comm_drv/PLMN_VERSION.txt
 
 #bin
-
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan_plus/bin/pvrsrvinit:system/bin/pvrsrvinit \
 	vendor/motorola/jordan_plus/bin/battd:system/bin/battd \
 	vendor/motorola/jordan_plus/bin/protocol_driver:system/bin/protocol_driver \
 	vendor/motorola/jordan_plus/bin/opprofdaemon:system/bin/opprofdaemon \

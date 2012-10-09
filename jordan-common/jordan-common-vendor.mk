@@ -12,6 +12,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# PVR drivers
+PRODUCT_COPY_FILES += \
+	vendor/motorola/jordan-common/bin/pvrsrvinit:system/bin/pvrsrvinit \
+	vendor/motorola/jordan-common/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan-common/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan-common/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	vendor/motorola/jordan-common/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
+	vendor/motorola/jordan-common/lib/libIMGegl.so:system/lib/libIMGegl.so \
+	vendor/motorola/jordan-common/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+	vendor/motorola/jordan-common/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
+	vendor/motorola/jordan-common/lib/libpvr2d.so:system/lib/libpvr2d.so \
+	vendor/motorola/jordan-common/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+	vendor/motorola/jordan-common/lib/libsrv_init.so:system/lib/libsrv_init.so \
+	vendor/motorola/jordan-common/lib/libsrv_um.so:system/lib/libsrv_um.so \
+	vendor/motorola/jordan-common/lib/libusc.so:system/lib/libusc.so
+
 # basebands
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan-common/etc/motorola/basebands/america/argentina_claro_342.zip:system/etc/motorola/basebands/america/argentina_claro_342.zip \
